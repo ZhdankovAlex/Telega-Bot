@@ -22,4 +22,4 @@ def bot(replica):
     answer = getStub.get_stub()
     return answer
 
-print(bot('Здарова, кума'))
+print(bot('кусь'))
