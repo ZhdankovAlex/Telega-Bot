@@ -3,7 +3,7 @@ import botConfig
 
 def clear_text(text):
     text = text.lower()
-    text = ''.join([char for char in text if char in 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя -'])
+    text = ''.join([char for char in text if char in '1234567890абвгдеёжзийклмнопрстуфхцчшщъыьэюя -'])
     return text
 
 def classify_intent(replica):
@@ -14,5 +14,5 @@ def classify_intent(replica):
             example = clear_text(example)
             # Вычисляем редакционное расстояние
             distance = nltk.edit_distance(replica, example)
-            if distance / len(example) < 0.3:
+            if distance / len(example) < 0.1:
                 return intent
