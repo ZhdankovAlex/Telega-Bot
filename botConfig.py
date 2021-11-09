@@ -19,10 +19,10 @@ BOT_CONFIG = {
             ],
             'responses': [
                 'I <3 you \n'
-                "41 18'14.1n81 " "54'06.1""w",
+                "18 31'45.15,70 15'0.0",
             ],
         },
-        # 18
+        # 18 - http://qrcoder.ru/code/?18&10&0
         'syaki-myaki': {
             'examples': [
                 'Рок-н-роллы',
@@ -33,7 +33,7 @@ BOT_CONFIG = {
                 'Приезжай в Казань',
             ],
         },
-        #
+        #  - для пробела нет QR кода
         'nut-beer': {
             'examples': [
                 'Друзья',
@@ -43,7 +43,7 @@ BOT_CONFIG = {
                 'Enjoy The Now',
             ],
         },
-        # 31'
+        # 31' - http://qrcoder.ru/code/?31%27&10&0
         'mosque': {
             'examples': [
                 'Мечеть',
@@ -54,7 +54,7 @@ BOT_CONFIG = {
                 'Мечеть Кул Шариф',
             ],
         },
-        # 45.
+        # 45. - http://qrcoder.ru/code/?45.&10&0
         'port': {
             'examples': [
                 'Порт',
@@ -66,7 +66,7 @@ BOT_CONFIG = {
                 'Море волнуется и скучает',
             ],
         },
-        # 15"
+        # 15"S - http://qrcoder.ru/code/?15%22S&10&0
         'zinger': {
             'examples': [
                 'Зингер',
@@ -76,7 +76,7 @@ BOT_CONFIG = {
                 'Подписные издания',
             ],
         },
-        # ,
+        # , - http://qrcoder.ru/code/?%2C&10&0
         'water-tower': {
             'examples': [
                 'Башня',
@@ -86,7 +86,7 @@ BOT_CONFIG = {
                 'Главное, чтобы дома кто-то ждал',
             ],
         },
-        # 70
+        # 70 - http://qrcoder.ru/code/?70&10&0
         'curonian-spit': {
             'examples': [
                 'Куршская коса',
@@ -96,7 +96,7 @@ BOT_CONFIG = {
                 'Нерпы',
             ],
         },
-        #
+        # - для пробела нет QR кода
         'bfu': {
             'examples': [
                 'Балтийский федеральный университет имени Иммануила Канта',
@@ -106,7 +106,7 @@ BOT_CONFIG = {
                 'Сейчас бы к морю, а не вот это вот всё',
             ],
         },
-        # 15'
+        # 15' - http://qrcoder.ru/code/?15%27&10&0
         'bakery': {
             'examples': [
                 'Хлебзавод',
@@ -115,7 +115,7 @@ BOT_CONFIG = {
                 'Наша фотография',
             ],
         },
-        # 0.
+        # 0. - http://qrcoder.ru/code/?0.&10&0
         'vdnh': {
             'examples': [
                 'ВДНХ',
@@ -124,7 +124,7 @@ BOT_CONFIG = {
                 'Кот с TEXTIL',
             ],
         },
-        # 0"
+        # 0"W - http://qrcoder.ru/code/?0%22W&10&0
         'lake': {
             'examples': [
                 'Плещеево',
@@ -134,6 +134,6 @@ BOT_CONFIG = {
                 'Чайку?',
             ],
         },
-        # 18 31'45.15",70 15'0.0"
+        # 18 31'45.15"S , 70 15'0.0"W
     },
 }
